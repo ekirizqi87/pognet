@@ -1,0 +1,243 @@
+/* =========================================================
+   GNetindo — Global Design Tokens & Base Styles
+   PT. Global Network Indonesia
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap');
+
+:root {
+  /* Brand core */
+  --navy-950: #060b18;
+  --navy-900: #0b1730;
+  --navy-800: #101f3d;
+  --navy-700: #172a4d;
+  --blue-700: #1a3c8c;
+  --blue-500: #2c5ce0;
+  --red-600:  #e5202a;
+  --red-500:  #f0393f;
+  --cyan-400: #3fd4ff;
+
+  /* Neutrals */
+  --white:    #ffffff;
+  --gray-100: #f4f6fa;
+  --gray-200: #e6eaf2;
+  --gray-400: #93a0b8;
+  --gray-600: #5b6780;
+  --ink:      #0c1424;
+
+  /* Type */
+  --font-display: 'Sora', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Rhythm */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --container: 1180px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* ===== Semantic theme tokens — LIGHT (default) ===== */
+  --bg-page:      var(--gray-100);
+  --bg-surface:   var(--white);
+  --bg-surface-2: var(--gray-100);
+  --bg-input:     var(--gray-100);
+  --text-heading: var(--navy-950);
+  --text-body:    var(--ink);
+  --text-muted:   var(--gray-600);
+  --border-color: var(--gray-200);
+  --shadow-soft:  0 1px 2px rgba(12, 20, 36, 0.04);
+
+  /* Hero / dark-brand surfaces (landing hero, login screen, summary panel) */
+  --hero-bg-a:      var(--navy-800);
+  --hero-bg-b:      var(--navy-950);
+  --hero-bg-c:      #030711;
+  --hero-text:      var(--white);
+  --hero-muted:     var(--gray-400);
+  --hero-card-bg:   rgba(16, 31, 61, 0.55);
+  --hero-card-bg-hover: rgba(16, 31, 61, 0.85);
+  --hero-card-border: rgba(147, 160, 184, 0.18);
+  --hero-card-border-hover: rgba(147, 160, 184, 0.34);
+
+  color-scheme: light;
+}
+
+/* ===== Semantic theme tokens — DARK ===== */
+html[data-theme="dark"] {
+  --bg-page:      #0b1730;
+  --bg-surface:   #101f3d;
+  --bg-surface-2: #172a4d;
+  --bg-input:     #0b1730;
+  --text-heading: #f4f6fa;
+  --text-body:    #e4e9f2;
+  --text-muted:   #93a0b8;
+  --border-color: rgba(147, 160, 184, 0.22);
+  --shadow-soft:  0 1px 2px rgba(0, 0, 0, 0.3);
+
+  --hero-bg-a:    #0b1730;
+  --hero-bg-b:    #04070f;
+  --hero-bg-c:    #010204;
+  --hero-card-bg: rgba(23, 42, 77, 0.55);
+  --hero-card-bg-hover: rgba(23, 42, 77, 0.9);
+  --hero-card-border: rgba(147, 160, 184, 0.22);
+  --hero-card-border-hover: rgba(147, 160, 184, 0.4);
+
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--text-body);
+  background: var(--bg-page);
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.25s var(--ease), color 0.25s var(--ease);
+}
+
+img { max-width: 100%; display: block; }
+
+a { color: inherit; text-decoration: none; }
+
+button { font-family: inherit; cursor: pointer; }
+
+::selection { background: var(--red-500); color: var(--white); }
+
+:focus-visible {
+  outline: 2px solid var(--cyan-400);
+  outline-offset: 3px;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}
+
+/* =========================================================
+   Generic page shell (used by inner pages: form, list, login)
+   ========================================================= */
+.page-shell { min-height: 100vh; background: var(--bg-page); transition: background 0.25s var(--ease); }
+
+.page-topbar {
+  background: var(--navy-950);
+  border-bottom: 3px solid var(--red-600);
+}
+
+.page-topbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 24px;
+  max-width: var(--container);
+  margin: 0 auto;
+}
+
+.page-topbar__right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.page-topbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.page-topbar__brand img { width: 30px; height: 30px; }
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--gray-400);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s var(--ease);
+}
+.back-link:hover { color: var(--white); }
+
+.page-body {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+.page-heading { margin-bottom: 28px; }
+.page-heading h1 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--text-heading);
+}
+.page-heading p { margin: 0; color: var(--text-muted); font-size: 15px; }
+
+/* =========================================================
+   Theme toggle (light / dark)
+   ========================================================= */
+.theme-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 52px;
+  height: 28px;
+  padding: 3px;
+  border: 1px solid rgba(147, 160, 184, 0.3);
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.theme-toggle__thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--white);
+  display: grid;
+  place-items: center;
+  color: var(--navy-950);
+  transform: translateX(0);
+  transition: transform 0.28s var(--ease), background 0.28s var(--ease), color 0.28s var(--ease);
+}
+html[data-theme="dark"] .theme-toggle__thumb {
+  transform: translateX(24px);
+  background: var(--navy-950);
+  color: var(--cyan-400);
+}
+
+.theme-toggle__thumb svg { width: 13px; height: 13px; }
+
+.theme-toggle__icon-track {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+  pointer-events: none;
+  color: var(--gray-400);
+}
+.theme-toggle__icon-track svg { width: 12px; height: 12px; }
+
+/* light variant of the toggle, used on white surfaces (e.g. login card) */
+.theme-toggle--on-light {
+  border-color: var(--border-color);
+  background: var(--bg-surface-2);
+}
+.theme-toggle--on-light .theme-toggle__thumb { background: var(--navy-950); color: var(--cyan-400); }
+.theme-toggle--on-light .theme-toggle__icon-track { color: var(--gray-600); }

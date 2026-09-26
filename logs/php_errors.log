@@ -1,0 +1,80 @@
+[17-Sep-2026 09:32:57 UTC] PHP Warning:  require_once(/var/www/pognet.hexkreatifa.id/config/config.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 21
+[17-Sep-2026 09:32:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/config/config.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:21
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 21
+[17-Sep-2026 16:33:42 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:43 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:43 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:43 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:43 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:44 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:45 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:33:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:34:52 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:34:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:34:52 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:34:52 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:34:53 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:34:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:34:53 Asia/Jakarta] PHP Warning:  require(/var/www/pognet.hexkreatifa.id/views/index.php): Failed to open stream: No such file or directory in /var/www/pognet.hexkreatifa.id/index.php on line 34
+[17-Sep-2026 16:34:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/pognet.hexkreatifa.id/views/index.php' (include_path='.:/usr/share/php') in /var/www/pognet.hexkreatifa.id/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/pognet.hexkreatifa.id/index.php on line 34
